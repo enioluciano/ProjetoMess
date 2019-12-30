@@ -11,25 +11,56 @@
        
 }
 
-.container1{
-    background: crimson;
-    width: 100vh;
-    margin: 10p auto;
-}
 
-.borda-redonda{
+
+.borda-redonda {
+    width: 100px;
+    height: 110px;
     border: 1px solid red;
-    border-radius: 40px;
-    padding: 100px;
-    padding-top: 150px;
+    border-radius: 30px;
+    padding: 25px;
     box-shadow: 5px 10px #888888;
 }
 
 #fonte{
-    font-size: 9px;
-    border: 1px solid blue;
+    color: darkgreen;
+    font-size: 7px;
+    
     position: relative;
-    left: -50px;
-    bottom: 35px;
+    left: -5px;
+    top: 30px;   
+}
+
+#post{
+    
+    font-size: 8px;
+    
+    position: relative;
+    left: -5px;
+    top: 30px;  
+
+}
+
+#botao1 {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    position: relative;
+    border-radius: 100%;
+    background-color: #9AFF9A;  
+    top: 40px;  
+   
+}
+
+#botao2 {
+    width: 15px;
+    height: 15px;
+    border: 1px solid red;
+    position: relative;
+    border-radius: 100%;
+    background-color: blue;
+    left: 2.4px;
+    top: 20px;  
    
 }
