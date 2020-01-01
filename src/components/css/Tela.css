@@ -16,10 +16,10 @@
 .borda-redonda {
     width: 100px;
     height: 110px;
-    border: 1px solid red;
-    border-radius: 30px;
+    border: 0.5px solid #DCDCDC ;
+    border-radius: 20%;
     padding: 25px;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 1px 1px #88888850 ;
 }
 
 #fonte{
@@ -41,26 +41,118 @@
 
 }
 
-#botao1 {
-    display: flex;
-    width: 20px;
-    height: 20px;
-    border: 1px solid red;
-    position: relative;
-    border-radius: 100%;
-    background-color: #9AFF9A;  
-    top: 40px;  
+.botao-container {
+    border: 1px solid #98FB98;
+    width: 35px;
+    height: 35px;
+     background: 	#98FB9875;
+     display: flex;
+     border-radius: 100%;
+     
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
    
 }
 
 #botao2 {
-    width: 15px;
-    height: 15px;
-    border: 1px solid red;
-    position: relative;
-    border-radius: 100%;
-    background-color: blue;
-    left: 2.4px;
-    top: 20px;  
+    border: 1px solid #32CD32;
+    width: 31px;
+    height: 31px;
+     background: #32CD32;
+     display: flex;
+     border-radius: 100%;
+     
+    justify-content: center;
+    align-items: center;
    
+}
+
+.img{
+    width: 20px;
+    height: 20px;   
+}
+
+.img2{
+    width: 18px;
+    height: 18px;   
+}
+
+.img3{
+    width: 26px;
+    height: 26px;  
+    border-radius: 50px; 
+}
+
+
+.botao-container2{
+    border: 1px solid #F5f5f5;
+    width: 35px;
+    height: 35px;
+     background: #F5f5f5;
+     display: flex;
+     border-radius: 100%;
+     
+    justify-content: center;
+    align-items: center;
+    
+    margin: -36px 0px 0px 60px;
+}
+
+#botao3{
+    border: 1px solid 	#F0FFFF;
+    width: 35px;
+    height: 35px;
+     background: 	#00000075;
+     display: flex;
+     border-radius: 100%;
+     
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.botao-container3 {
+    border: 1px solid 	#32CD32;
+    width: 27px;
+    height: 27px;
+     background: 			#32CD32;
+     display: flex;
+     border-radius: 100%;
+     
+    justify-content: center;
+    align-items: center;
+    margin-top: -140px;
+   
+}
+
+#botao4 {
+    border: 1px solid #32CD32;
+    width: 23px;
+    height: 23px;
+     background: #32CD32;
+     display: flex;
+     border-radius: 100%;
+     
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-container4{
+
+    border: 1px solid #F5f5f5;
+    width: 65px;
+    height: 35px;
+     background: #F5f5f5;
+     display: flex;
+    
+     
+    justify-content: center;
+    
+    
+    margin: -37px 0px 0px 33px;
+    font-size: 9px;
+    
+
 }
